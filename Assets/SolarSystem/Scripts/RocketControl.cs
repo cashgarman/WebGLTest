@@ -17,7 +17,7 @@ namespace SolarSystem.Scripts
             _rigidbody = GetComponent<Rigidbody>();
             
             // Lock the cursor to make mouse control easier
-            // Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
         void Update()
